@@ -16,7 +16,7 @@ This is a simple guide to getting the CanBoot bootloader, and Klipper with USB t
   make menuconfig
   ```
 4. Make sure your settings match this screenshot:
-  ADD SCREENSHOT
+  ![CanBoot Settings](canboot_settings.png)
 5. Hit 'q' to quit, and 'y' to save
 6. Run `make`
 
@@ -45,7 +45,7 @@ Checkpoint 2: At this point the CanBoot bootloader should now be flashed to your
   make menuconfig
   ```
 3. Make sure your settings match this screenshot:
-  ADD SCREENSHOT
+  ![Klipper Settings](klipper_settings.png)
 4. Hit 'q' to quit, and 'y' to save
 5. Run `make`
 
