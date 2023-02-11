@@ -1,5 +1,11 @@
 # Setting up your BTT SKR Pico to use CanBoot bootloader and Klipper with USB to CAN Bridge
-This is a simple guide to getting the CanBoot bootloader, and Klipper with USB to CAN Bridge working.
+This is a simple guide to getting the CanBoot bootloader, and Klipper with USB to CAN Bridge working. Well, hopefully it's simple, as that was my aim. Presumably, you are interested in this because you are on a path to adding a CAN-enabled tool head PCB. 
+
+This article is strictly focused on flashing the Pico firmware to make eventual communication with other CAN nodes possible. It stops short of getting into any tool head PCB firmware/configuration because I simply can't predict which PCB you might use. However, there many great supplementary resources to this guide out there which dive into that side of CAN/3D Printers. [This one from Rootiest](https://github.com/rootiest/zippy-klipper_config/blob/master/guides/Guide-pico_can.md), for example, shows you how to use an EBB board + transceiver.
+
+If you are looking for more advanced ways of flashing CanBoot + Klipper, [this article from Polar Ted](https://github.com/Polar-Ted/RP2040Canboot_Install/blob/main/README.MD#canboot-for-skr-pico-in-usb-mode) may also be of use to you.
+
+Shall we get started now?
 
 ## Assumptions
 1. You know the general `make clean; make menuconfig; make` pattern typically seen with flashing MCUs.
@@ -102,8 +108,6 @@ the `[mcu]` config block for your SKR Pico.
 
 ## FINISH LINE
 If everything was successful then you now have CanBoot and Klipper with the USB to CAN bridge working. This means you can now add more CAN devices to your network, such as the EBB36.
-There are plenty of guides out there for connecting different CAN tool head PCBs. For example, here's a good one (note: you can ignore the steps
-in this article for flashing your SKR Pico since we already have that setup with the bonus of CanBoot!): [Article](https://github.com/rootiest/zippy-klipper_config/blob/master/guides/Guide-pico_can.md).
 
 
 
