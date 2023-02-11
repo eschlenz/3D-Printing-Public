@@ -26,9 +26,10 @@ Checkpoint 1: The CanBoot bootloader file is now ready to be flashed to the SKR 
 1. Add a jumper to the BOOT pins on your SKR Pico
 2. Hit the reset button on your SKR Pico (this puts it into DFU/firmware flashing mode)
 3. Confirm that the SKR Pico is in DFU mode by doing the following:
-  1. Run: `sudo mount /dev/sda1 /mnt`
-  2. Run: `ls /mnt`
-  3. You should see the following files: `INDEX.HTM`, `INFO_UF2.TXT`
+  1. WARNING: Before running the following step, confirm whether your Pico appears as `/dev/sda1`. You may need to replace `sda1` with something else depending on your setup. You can list your devices using the `lsblk` command.
+  2. Run: `sudo mount /dev/sda1 /mnt`
+  3. Run: `ls /mnt`
+  4. You should see the following files: `INDEX.HTM`, `INFO_UF2.TXT`
 4. Run: sudo cp ~/CanBoot/out/canboot.uf2 /mnt
 5. The SKR Pico will now flash the CanBoot bootloader. You can confirm this process is complete by continuously running `ls /mnt` until you no longer see a list of files
 6. Remove the BOOT jumper
