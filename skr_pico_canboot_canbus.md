@@ -5,6 +5,8 @@ This article is strictly focused on flashing the Pico firmware to make eventual 
 
 If you are looking for more advanced ways of flashing CanBoot + Klipper, [this article from Polar Ted](https://github.com/Polar-Ted/RP2040Canboot_Install/blob/main/README.MD#canboot-for-skr-pico-in-usb-mode) may also be of use to you.
 
+And, if you're looking for an article that covers CAN/Klipper more generally regardless of hardware, check [this article from Esoterical out](https://github.com/Esoterical/voron_canbus).
+
 Shall we get started now?
 
 ## Assumptions
