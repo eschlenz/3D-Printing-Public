@@ -1,4 +1,4 @@
-## 1KG Empty Spool Weights (grams)
+## Empty Spool Weights (grams)
 | Brand     | Type      | Size | Empty Spool Weight (grams) |
 | --------- | --------- | ---- | -------------------------- |
 | Bambu     | Plastic   | 1KG  | 213                        |
