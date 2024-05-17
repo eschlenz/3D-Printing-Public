@@ -4,6 +4,7 @@
 | Bambu     | Plastic   | 1KG  | 213                        |
 | Fusion    | Plastic   | 1KG  | 318                        |
 | KVP       | Plastic   | 1KG  | 323                        |
+| LOCYFENS  | Plastic   | 1KG  | 154                        |
 | Polymaker | Cardboard | 1KG  | 145                        |
 | Sunlu     | Plastic   | 1KG  | 126                        |
 
