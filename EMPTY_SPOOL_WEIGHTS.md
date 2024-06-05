@@ -2,6 +2,7 @@
 | Brand     | Type      | Size | Empty Spool Weight (grams) |
 | --------- | --------- | ---- | -------------------------- |
 | Bambu     | Plastic   | 1KG  | 213                        |
+| Elegoo    | Plastic   | 1KG  | 185                        |
 | Fusion    | Plastic   | 1KG  | 318                        |
 | KVP       | Plastic   | 1KG  | 323                        |
 | LOCYFENS  | Plastic   | 1KG  | 154                        |
