@@ -10,7 +10,7 @@
 | LOCYFENS  | Plastic   | 1KG   | 154                        |
 | Overture  | Cardboard | 1KG   | 149                        |
 | Polymaker | Cardboard | 1KG   | 145                        |
-| Polymaker | Plastic   | 750G  | 145                        |
+| Polymaker | Plastic   | 750G  | 201                        |
 | Sunlu     | Plastic   | 1KG   | 126                        |
 
 
