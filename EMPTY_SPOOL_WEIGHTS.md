@@ -9,6 +9,7 @@
 | KVP       | Plastic   | 1KG   | 323                        |
 | LOCYFENS  | Plastic   | 1KG   | 154                        |
 | Overture  | Cardboard | 1KG   | 149                        |
+| OVV3D     | Cardboard | 1KG   | 128                        |
 | Polymaker | Cardboard | 1KG   | 145                        |
 | Polymaker | Plastic   | 750G  | 201                        |
 | Sunlu     | Plastic   | 1KG   | 126                        |
